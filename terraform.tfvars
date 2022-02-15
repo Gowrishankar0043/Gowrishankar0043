@@ -1,0 +1,24 @@
+account      = "851424344156"
+account_role = "tfc-admin"
+region       = "us-east-2"
+vpc_name     = "Shared-VPC-Testing"
+cidr         = "10.2.16.0/21"
+vpc_tags = {
+  Application = "Shared VPC",
+  Environment = "Non Prod",
+  OrgAbbr     = "Cloud",
+  OrgName     = "Adv Tech - Cloud",
+  Owner       = "cloud-isys-employees@geappliances.com",
+  Role        = "VPC",
+}
+aws_igw_name                    = "Shared-vpc-igw"
+aws_vpc_endpoint_s3_name        = "Shared-VPC-S3-Gateway-endpoint"
+aws_vpc_endpoint_dynamo_db_name = "Shared-VPC-Dynamo_DB-Gateway-endpoint"
+eip_name                        = "Shared-vpc-nat-eip"
+nat_name                        = "Shared-vpc-nat"
+public_network_acl_name         = "Shared-vpc-public-network-acl-name"
+private_network_acl_name        = "Shared-vpc-private-network-acl-name"
+attach_VPC_to_TGW               = true
+tgw_id                          = "tgw-0b901d584b8c7579c"
+tgw_rtb_propogation_id          = "tgw-rtb-05369c252168b6568"
+tgw_rtb_association_id          = "tgw-rtb-05369c252168b6568"
